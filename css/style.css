@@ -15,9 +15,11 @@ ul {
 header {
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 5px;
     position: sticky;
     top: 0;
-    background: fff;
+    background-color: grey;
+    /* opacity: 50%; */
     z-index: 99;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.01);
 }
@@ -47,4 +49,22 @@ nav a:hover {
 
 h1 {
     font-size: 2.9em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#home, #services, #projects, #contact {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#contactInfo {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
 }
